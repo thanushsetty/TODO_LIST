@@ -1,0 +1,45 @@
+.strike{
+    text-decoration: line-through;
+    color: brown;
+}
+.done{
+    display: block;
+}
+.undone{
+    display: none;
+}
+.todo{
+    border: 1px solid rgb(224, 223, 223);
+    margin-top: 5%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px 10px;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    margin: 2% 3%;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 3%;
+}
+
+.options input{
+    color: green;
+}
+
+.deleteButton, .editButton, .okButton{
+    padding: 2px;
+    margin:1%;
+    background-color: rgb(220, 55, 68);
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
